@@ -106,7 +106,7 @@ Extend support for SAP-specific logs (ABAP dumps, IDocs, RFC errors)
 ## 👤 Author
 
 Marcin Gwara
-QA Engineer | AI-driven Testing Enthusiast
+QA Automation Engineer | AI-driven Testing Enthusiast
 
 ## 📄 License
 
