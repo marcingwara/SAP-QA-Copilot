@@ -32,7 +32,7 @@ This approach reflects real-world QA workflows used in SAP support and testing t
 ---
 
 ## 🧱 Project Structure
-
+```
 app/
 ├── main.py # Application entry point
 ├── routes/ # API endpoints
@@ -42,6 +42,8 @@ app/
 ├── services/ # Business and QA logic
 │ └── log_analyzer.py
 └── core/ # Configuration and shared utilities
+```
+
 
 The project follows a clean separation of concerns:
 - **routes** handle HTTP communication
@@ -54,7 +56,7 @@ The project follows a clean separation of concerns:
 
 **POST** `/analyze/`
 
-`json
+```json
 {
   "system": "SAP S/4HANA",
   "environment": "QA",
@@ -75,7 +77,7 @@ Response:
     "total": 3
   }
 }
-
+```
 ## 🛠 Built With
 
 Python 3.11
