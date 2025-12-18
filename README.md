@@ -66,7 +66,9 @@ The project follows a clean separation of concerns:
     "Info: User logged in"
   ]
 }
+```
 Response:
+```
 {
   "system": "SAP S/4HANA",
   "environment": "QA",
