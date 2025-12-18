@@ -54,7 +54,7 @@ The project follows a clean separation of concerns:
 
 **POST** `/analyze/`
 
-```json
+
 {
   "system": "SAP S/4HANA",
   "environment": "QA",
@@ -75,25 +75,36 @@ Response:
     "total": 3
   }
 }
-🛠 Built With
+
+
+## 🛠 Built With
+
 Python 3.11
 FastAPI – backend framework
 Pydantic – data validation
 Uvicorn – ASGI server
 Virtualenv – local environment management
-🎯 Why This Project Matters
+
+## 🎯 Why This Project Matters
+
 Reflects real QA and SAP support scenarios
 Focuses on understandable and maintainable logic
 Designed for gradual extension with AI and SAP BTP services
-Suitable for QA engineers transitioning into AI-assisted testing
-🔮 Future Plans
+Suitable for QA engineers transitioning into AI-assisted 
+
+## 🔮 Future Plans
+
 Integrate SAP Business AI / Generative AI Hub
 Add AI-based log interpretation and summarization
 Generate test case suggestions from logs
 Export QA reports to external tools (e.g. Jira, TestRail)
 Extend support for SAP-specific logs (ABAP dumps, IDocs, RFC errors)
-👤 Author
+
+## 👤 Author
+
 Marcin Gwara
 QA Engineer | AI-driven Testing Enthusiast
-📄 License
+
+## 📄 License
+
 This project is provided for educational and innovation purposes as part of the SAP Business AI Innovation Challenge.
